@@ -3,7 +3,7 @@ import Reveal from 'reveal.js';
 window.addEventListener("load", function() {
     let deck = new Reveal({});
     deck.initialize({
-        autoSlide: 5000,
+        autoSlide: 10000,
         loop: true,
         hash: true,
         controls: false,
